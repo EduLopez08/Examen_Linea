@@ -87,7 +87,7 @@
 					<div class="col-xs-12 text-center">
 						<div class="menu-1">
 							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
+								<li class="active"><a href="index.php">Home</a></li>
 								<!--<li><a href="services.html">Services</a></li>-->
 								<!--<li class="has-dropdown">
 									<a href="#">Navegadores</a>
@@ -117,7 +117,6 @@
 			</div>
 			<div class="row animate-box">
 				<div class="col-md-12">
-<<<<<<< HEAD:Examen_linea/Examen_linea/services.html
 					<!--Validar que todos los campos esten llenos-->
 <form data-toggle="validator" role="form"> 
   <div class="form-group">
@@ -131,20 +130,6 @@
     <div class="form-group">
     <label for="inputName" class="control-label">Apellido Materno:</label>
     <input type="text" class="form-control" id="nombre" placeholder="Cina Apellido Materno">
-=======
-<form data-toggle="validator" method="POST" action="operacion_guardar.php" name="formulario" role="form">
-  <div class="form-group">
-    <label for="inputName" class="control-label">Nombre:</label>
-    <input type="text" class="form-control" name="nombre" placeholder="Nombre" required>
-  </div>
-    <div class="form-group">
-    <label for="inputName" class="control-label">Apellido Paterno:</label>
-    <input type="text" class="form-control" name="apellidop" placeholder="Apellido Paterno" required>
-  </div>
-    <div class="form-group">
-    <label for="inputName" class="control-label">Apellido Materno:</label>
-    <input type="text" class="form-control" name="apellidom" placeholder="Apellido Materno" required>
->>>>>>> 90c80c573b8fe83bfd07fb135f721dfb387f1b49:Examen_linea/Examen_linea/new_registro.html
   </div>
     <div class="form-group">
     <label for="inputName" class="control-label">Matrícula:</label>

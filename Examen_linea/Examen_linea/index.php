@@ -128,7 +128,6 @@
 			   				<div class="slider-text-inner">
 			   					<h1><strong> SEL</strong></h1>
 									<h2 class="doc-holder">Sistema de Exámenes en Línea.</h2>
-									<!--<h2><a href="https://www.mozilla.org/es-MX/firefox/download/thanks/" target="_blank">QBootstrap.com</a></h2>-->
 									<p><a class="btn btn-primary btn-lg" href="new_registro.php">Acceder</a></p>
 			   				</div>
 			   			</div>

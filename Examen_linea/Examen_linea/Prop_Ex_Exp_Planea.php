@@ -67,7 +67,7 @@
 						<div class="top">
 							<div class="row">
 								<div class="col-md-4 col-md-push-4 text-center">
-									<div id="qbootstrap-logo"><h1><a href="index.html"></i>UNIVERSIDAD POLITECNICA DE JUVENTINO ROSAS.</span></a><h1></div>
+									<div id="qbootstrap-logo"><h1><a href="index.php"></i>UNIVERSIDAD POLITECNICA DE JUVENTINO ROSAS.</span></a><h1></div>
 								</div>
 								<div class="col-md-4 col-md-pull-4">
 									<div class="num">

@@ -117,34 +117,34 @@
 			</div>
 			<div class="row animate-box">
 				<div class="col-md-12">
-<form data-toggle="validator" role="form">
+<form data-toggle="validator" method="POST" action="operacion_guardar.php" name="formulario" role="form">
   <div class="form-group">
     <label for="inputName" class="control-label">Nombre:</label>
-    <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+    <input type="text" class="form-control" name="nombre" placeholder="Nombre" required>
   </div>
     <div class="form-group">
     <label for="inputName" class="control-label">Apellido Paterno:</label>
-    <input type="text" class="form-control" id="nombre" placeholder="Apellido Paterno" required>
+    <input type="text" class="form-control" name="apellidop" placeholder="Apellido Paterno" required>
   </div>
     <div class="form-group">
     <label for="inputName" class="control-label">Apellido Materno:</label>
-    <input type="text" class="form-control" id="nombre" placeholder="Cina Apellido Materno" required>
+    <input type="text" class="form-control" name="apellidom" placeholder="Apellido Materno" required>
   </div>
     <div class="form-group">
     <label for="inputName" class="control-label">Matrícula:</label>
-    <input type="text" class="form-control" id="nombre" placeholder="En caso de no tener matrícula, no escribir" required>
+    <input type="text" class="form-control" name="matricula" placeholder="En caso de no tener matrícula, no escribir">
   </div>
   <div class="form-group">
-  <label for="inputName" class="control-label">Carrers:</label>
-  <select class="form-control" id="nombre" required>
+  <label for="inputName" class="control-label">Carrera:</label>
+  <select class="form-control" name="carrera" required>
 	  <option>Elegir una opción...</option>
-	  <option>Ingeniería en Redes y Telecomunicaciones</option>
-	  <option>Ingeniería en Plásticos y Polímeros</option>
-	  <option>Ingeniería Financiera</option>
-	  <option>Ingeniería en Sistemas Automotrices</option>
-	  <option>Ingeniería en Manufactura Avanzada</option>
-	  <option>Ingeniería Metalúrgica</option>
-	  <option>Licenciatura en Administración y PyMES</option>
+	  <option value="Ingeniería en Redes y Telecomunicaciones">Ingeniería en Redes y Telecomunicaciones</option>
+	  <option value="Ingeniería en Plásticos y Polímeros">Ingeniería en Plásticos y Polímeros</option>
+	  <option value="Ingeniería Financiera">Ingeniería Financiera</option>
+	  <option values="Ingeniería en Sistemas Automotrices">Ingeniería en Sistemas Automotrices</option>
+	  <option value="Ingeniería en Manufactura Avanzada">Ingeniería en Manufactura Avanzada</option>
+	  <option value="Ingeniería Metalúrgica">Ingeniería Metalúrgica</option>
+	  <option value="Licenciatura en Administración y PyMES">Licenciatura en Administración y PyMES</option>
 	  </select>
   </div>
  

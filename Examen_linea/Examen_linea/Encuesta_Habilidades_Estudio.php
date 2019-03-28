@@ -576,7 +576,7 @@ dediques demasiado tiempo a una sola pregunta. No omitas ninguna de ellas..</div
 				<!-- -->
 				<br>
 				<div class="form-group">
-					<center><a href="Segundoexamen.html"><button type="button" class="btn btn-success" id="btnIniciar">Total</button></a></center>
+					<center><a href="Segundoexamen.php"><button type="button" class="btn btn-success" id="btnIniciar">Total</button></a></center>
 				</div>	
 						
 			</div>

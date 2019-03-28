@@ -669,7 +669,7 @@
 				-->
 				<br>
 				<div class="form-group">
-					<center><a href="Encuesta_Habilidades_Estudio.html"><button type="button" class="btn btn-success" id="btnIniciar">Siguiente exámen.</button></a></center>
+					<center><a href="Encuesta_Habilidades_Estudio.php"><button type="button" class="btn btn-success" id="btnIniciar">Siguiente exámen.</button></a></center>
 				</div>	
 						
 			</div>

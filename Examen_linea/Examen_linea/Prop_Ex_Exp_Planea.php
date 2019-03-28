@@ -1173,7 +1173,7 @@ que produce es:</h4>
 				-->
 								<br>
 				<div class="form-group">
-					<center><a href="Encuesta_Estilos_Aprendizaje.html"><button type="button" class="btn btn-success" id="btnIniciar">Siguiente exámen.</button></a></center>
+					<center><a href="Encuesta_Estilos_Aprendizaje.php"><button type="button" class="btn btn-success" id="btnIniciar">Siguiente exámen.</button></a></center>
 				</div>	
 				</div>
 			</form>

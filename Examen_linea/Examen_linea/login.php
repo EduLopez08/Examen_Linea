@@ -105,7 +105,7 @@
 					Ahora puedes dar inicio al exámen de admisión.<br>
 					Asegúrate de tener todo el material necesario para cada exámen.
 
-				        <a href="Prop_Ex_Exp_Planea.html"><button class="btn btn-primary btn-lg btn-block" id="btnIniciar">Dar inicio</button></a>
+				        <a href="Prop_Ex_Exp_Planea.php"><button class="btn btn-primary btn-lg btn-block" id="btnIniciar">Dar inicio</button></a>
 				    </div>	
 				</div>
 			</div>

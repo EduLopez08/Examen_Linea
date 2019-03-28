@@ -165,7 +165,7 @@
   </div>
  
   <div class="form-group">
-   <center><a href="login.html"><button type="submit" class="btn btn-primary">Aceptar</button></a></center>
+   <center><a href="login.php"><button type="submit" class="btn btn-primary">Aceptar</button></a></center>
   </div>
 </form>
 <!-- Finaliza form para validar campos-->

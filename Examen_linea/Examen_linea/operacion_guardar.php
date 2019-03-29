@@ -10,7 +10,7 @@
 	$resultado = $conexion->query($query);
 	
 	if($resultado){
-		include("login.html");
+		include("login.php");
 	}else{
 		echo "fallo";
 	}

@@ -121,19 +121,19 @@
 <form data-toggle="validator" role="form"> 
   <div class="form-group">
     <label for="inputName" class="control-label">Nombre:</label>
-    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+    <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
   </div>
     <div class="form-group">
     <label for="inputName" class="control-label">Apellido Paterno:</label>
-    <input type="text" class="form-control" id="nombre" placeholder="Apellido Paterno">
+    <input type="text" class="form-control" id="nombre" placeholder="Apellido Paterno" required>
   </div>
     <div class="form-group">
     <label for="inputName" class="control-label">Apellido Materno:</label>
-    <input type="text" class="form-control" id="nombre" placeholder="Cina Apellido Materno">
+    <input type="text" class="form-control" id="nombre" placeholder="Cina Apellido Materno" required>
   </div>
     <div class="form-group">
     <label for="inputName" class="control-label">Matrícula:</label>
-    <input type="text" class="form-control" name="matricula" placeholder="En caso de no tener matrícula, no escribir">
+    <input type="text" class="form-control" name="matricula" placeholder="En caso de no tener matrícula, no escribir" required>
   </div>
   <div class="form-group">
   <label for="inputName" class="control-label">Carrera:</label>
@@ -150,7 +150,7 @@
   </div>
  
   <div class="form-group">
-   <center><a href="login.php"><button type="submit" class="btn btn-primary">Aceptar</button></a></center>
+   <center><a href="login.php"><button type="button" class="btn btn-primary">Aceptar</button></a></center>
   </div>
 </form>
 <!-- Finaliza form para validar campos-->

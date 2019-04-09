@@ -128,7 +128,7 @@
 			   				<div class="slider-text-inner">
 			   					<h1><strong> SEL</strong></h1>
 									<h2 class="doc-holder">Sistema de Exámenes en Línea.</h2>
-									<a href="new_registro.php"><p><button type="button" class="btn btn-success" id="btnIniciar">Acceder</button></p></a>
+									<a href="cuentas.php"><p><button type="button" class="btn btn-success" id="btnIniciar">Acceder</button></p></a>
 			   				</div>
 			   			</div>
 			   		</div>

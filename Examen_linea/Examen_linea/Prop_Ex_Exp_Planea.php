@@ -166,28 +166,28 @@
 				<!-- -->
 				<h4>3.- El nombre de los siguientes elementos químicos Mn, P, K, S, Ba, Cs, Fe, Nd, Ca y Al es:</h4>
 				<div class="Tercerpregunta" id="respuesta3">
-				    <input type="checkbox" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				    <input type="checkbox" name="optionsRadios" id="optionsRadios1" value=“option1” onclick="respuesta()" required>
 				    	a) Magnesio, Potasio, Kriptón, Azufre, Bario, Escandio, Flúor, Neodimio, Calcio y Aluminio.
 				  	<br>
-			  		<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  		<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option2” onclick="respuesta()"required>
 			  			b) Manganeso, Potasio, Kriptón, Azufre, Bario, Cesio, Fierro, Neodimio, Calcio y Aluminio.
 			  			<br>
-			  		<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option3” required>
+			  		<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option3” onclick="respuesta()"required>
 			  			c) Manganeso, Fosforo, Potasio, Azufre, Bario, Cesio, Fierro, Neodimio, Calcio y Aluminio.
 				</div>
 				<!-- -->
 				<h4>4.- Selecciona de las siguientes afirmaciones relacionadas con el níquel (Ni), cual no es verdadera.</h4>
 				<div class="Cuartapregunta" id="respuesta4">
 					<label class="checkbox-inline">
-				    <input type="checkbox" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				    <input type="checkbox" name="optionsRadios" id="optionsRadios1" value=“option1” onclick="respuesta()" required>
 				    	a) Es un aislante.
 				  		</label>
 				  		<label class="checkbox-inline">
-			  		<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  		<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option2” onclick="respuesta()" required>
 			  			b) Es maleable.
 			  		</label>
 			  		<label class="checkbox-inline">
-			  			<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option3” required>
+			  			<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option3” onclick="respuesta()"required>
 			  			c) Es dúctil.
 			  		</label>
 				</div>
@@ -195,28 +195,28 @@
 				<h4>5.- Su principal característica es que son considerados gases inertes:</h4>
 				<div class="Quintaregunta" id="respuesta5">
 					<label class="radio-inline">
-				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” onclick="respuesta()"required>
 				    	a) Halógenos.
 				    </label>
 				  	<label class="radio-inline">
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” onclick="respuesta()"required>
 			  			b) Metales de transición.
 			  		</label>
 			  		<label class="radio-inline">
-			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” required>
+			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” onclick="respuesta()"required>
 			  			c) Gases nobles
 			  		</label>
 				</div>
 				<!-- -->
 				<h4>6.- El Radio atómico se define como:</h4>
 				<div class="Sextapregunta" id="respuesta6">
-				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” onclick="respuesta()"required>
 				    	a) Mitad de la distancia entre dos núcleos de dos moléculas adyacentes.
 				  	<br>
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” onclick="respuesta()"required>
 			  			b) Mitad de la distancia entre dos núcleos de dos átomos adyacentes.
 			  			<br>
-			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” required>
+			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” onclick="respuesta()"required>
 			  			b) Mitad de la distancia entre dos núcleos de un átomo y una molécula adyacentes.
 				</div>
 				<!-- -->
@@ -224,99 +224,99 @@
 gaseoso: </h4>
 				<div class="Septimapregunta" id="respuesta7">
 					<label class="radio-inline">
-				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” onclick="respuesta()" required>
 				    	a) Afinidad electrónica.
 				  	</label>
 				  	<label class="radio-inline">
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2”  onclick="respuesta()" required>
 			  			b) Electronegatividad.
 			  		</label>
 			  		<label class="radio-inline">
-			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” required>
+			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” onclick="respuesta()" required>
 			  			c) Energía de ionización.
 			  		</label>
 				</div>
 				<!-- -->
 				<h4>8.- Un enlace covalente se caracteriza por:</h4>
 				<div class="Octavapregunta" id="respuesta8">
-				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” onclick="respuesta()" required>
 				    	a) Fuerzas electrostáticas entre los elementos.
 				  	<br>
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2”  onclick="respuesta()" required>
 			  			b) Por compartir electrones entre los elementos.
 			  			<br>
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” required>
+			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” onclick="respuesta()" required>
 			  			c) Por ceder el par de electrones de un elemento a otro.
 				</div>
 				<!-- -->
 				<h4>9.- Compuesto que presenta un enlace covalente polar</h4>
 				<div class="Novenapregunta" id="respuesta9">
-				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1”  onclick="respuesta()" required>
 				    	a) NaCl.
 				  	<br>
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2”  onclick="respuesta()" required>
 			  			b) CCl<sub>4</sub>.
 			  			<br>
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” required>
+			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” onclick="respuesta()" required>
 			  			c) HF.
 				</div>
 				<!-- -->
 				<h4>10.- Una propiedad para diferenciar un enlace covalente polar y un enlace covalente no polar es:</h4>
 				<div class="Decimapregunta" id="respuesta10">
-				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” onclick="respuesta()" required>
 				    	a) Electronegatividad.
 				  	<br>
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” onclick="respuesta()"required>
 			  			b) Radio atómico.
 			  			<br>
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” required>
+			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3”  onclick="respuesta()" required>
 			  			c) Longitud de enlace.
 				</div>
 				<!-- -->
 				<h4>11.- El estado de oxidación del Azufre (S) en el compuesto ácido sulfúrico (H<sub>2</sub> SO<sub>4</sub> ) es:</h4>
 				<div class="Onceavapregunta" id="respuesta11">
 					<label class="radio-inline">
-				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” onclick="respuesta()" required>
 				    	a) +2.
 				    </label>
 				  	<label class="radio-inline">
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” onclick="respuesta()" required>
 			  			b) +6
 			  		</label>
 			  		<label class="radio-inline">
-			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” onclick="respuesta()" required>
 			  			c) -6
 			  		</label>
 				</div>
 				<!-- -->
 				<h4>12.- La reacción química donde se unen dos elementos o dos compuestos para generar un solo producto se llama:</h4>
-				<div class="Doceavapregunta">
+				<div class="Doceavapregunta" id="respuesta12">
 					<label class="radio-inline">
-				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” onclick="respuesta()" required>
 				    	a) Reacción de sustitución.
 				  	</label>
 				  	<label class="radio-inline">
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” onclick="respuesta()" required>
 			  			b) Reacción de síntesis.
 			  		</label>
 			  		<label class="radio-inline">
-			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” onclick="respuesta()" required>
 			  			c) Reacción de metátesis.
 			  		</label>
 				</div>
 				<!-- -->
 				<h4>13.- En una reacción de combustión:</h4>
-				<div class="Treceavapregunta">
+				<div class="Treceavapregunta" id="respuesta13">
 					<label class="radio-inline">
-				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” onclick="respuesta()" required>
 				    	a) Implica perdida de oxígeno.
 				  	</label>
 				  	<label class="radio-inline">
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” onclick="respuesta()"required>
 			  			b) Implica la necesidad de oxígeno.
 			  		</label>
 			  		<label class="radio-inline">
-			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” onclick="respuesta()" required>
 			  			c) Las dos anteriores.
 			  		</label>
 				</div>

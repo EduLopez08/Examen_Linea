@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Registro de Conimi 2019</title>
+<title></title>
 	
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
@@ -22,7 +22,7 @@
 		<?php
 			include 'conexionbd.php';
 			$password_i=$_REQUEST['password_i'];
-			$user_i=$_REQUEST['usuario_i'];
+			$user_i=$_REQUEST['user_i'];
 			$query="SELECT * FROM usuarios where usuario='$user_i' and contrasenia='$password_i' ";
             $resultado = $mysqli->query($query);
             if($password_i === $resultado['contrasenia'] && $usser_i === $resultado['usuario']){

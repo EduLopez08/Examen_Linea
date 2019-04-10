@@ -10,15 +10,15 @@ $(document).ready( function () {
 	
 	function hacerOperaciones(){
 		var user_i = $("#usuario").val();
-		var user_e=Base64.encode(user_i);
+		//var user_e=Base64.encode(user_i);
 		//alert(user_e);
 		var password_i = $("#pass").val();
-		var password_e=Base64.encode(password_i);
+		//var password_e=Base64.encode(password_i);
 		//alert(password_e);
 		$.ajax({
         type: "POST",
         success : function(){
-                window.location.href = "validauser.php?user_e="+user_e+"&password_e="+password_e;
+                window.location.href = "validauser.php?user_e="+user_i+"&password_e="+password_i;
         	}
     	});
 	};

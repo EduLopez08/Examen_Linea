@@ -20,18 +20,12 @@
 </div>
 </center>
 		<?php
-			include 'conexion.php';
-			$password_i=$_REQUEST['password_e'];
-			$password_d=base64_decode($password_i);
-			$user_i=$_REQUEST['user_e'];
-			$user_d=base64_decode($user_i);
-			$query="SELECT * FROM usuarios where id_usuario='$user_d' and contrasenia='$password_d' ";
+			include 'conexionbd.php';
+			$password_i=$_REQUEST['password_i'];
+			$user_i=$_REQUEST['usuario_i'];
+			$query="SELECT * FROM usuarios where id_usuario='$user_i' and contrasenia='$password_i' ";
 			$resultado = $mysqli->query($query);
-		    if($password_d === $resultado['password'] && $user_d === $resultado['usuario']){
-                //Haces header o un echo si haces peticion por ajax a la ruta de la vista que accede.
-          }else{
-               //Haces header o un echo si haces peticion por ajax a la ruta de la vista de logueo nuevamente ya que no coincide el password o usuario.
-          }
+		    
 			
 		?>
 	</div>

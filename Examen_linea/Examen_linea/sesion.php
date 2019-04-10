@@ -49,7 +49,7 @@
         <div class="sesion">
         <input id="usuario" type="text" placeholder="Usuario" required><br><br>
         <input id="pass" type="password" placeholder="Contraseña" required><br><br>
-        <a href="admin.php"><button id="ingresar" onClick="login()" class="btn-success">INGRESAR</button></a>
+        <button id="ingresar" class="btn-success">INGRESAR</button>
         </div>
 </div>
 </div>
@@ -73,13 +73,20 @@
 	</div>
     </body>
 
-    <script>
+    <!--<script>
     function login(){
         var usuario= document.getElementById("Usuario").value;
         var pass= document.getElementById("Contraseña").value;
         console.log(usuario);
+        $.ajax({
+        type: "POST",
+        success : function(){
+                window.location.href = "validauser.php?user="+usuario+"&password="+pass;
+        	}
+        });
+        
     }
-    </script>
+    </script>-->
 <script  type="text/javascript" src="js/jquery-2.2.0.min.js"></script>	
 <script  type="text/javascript" src="js/conecta.js"></script>
 </html>

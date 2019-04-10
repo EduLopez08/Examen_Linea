@@ -135,7 +135,7 @@
 <form data-toggle="validator" role="form" method="post" name="formu" id="formu">
 				<div class="Preguntas" id="">
 				<h4>1.- Es una sustancia que no se puede separar en otras más sencillas por medios químicos:</h4>
-				<div class="Primerpregunta" id="respuesta1" value="hola" name="hola">
+				<div class="Primerpregunta" id="respuesta1" value="hola" name="hola" onclick="respuesta()">
 					<label class="checkbox-inline">
 				    <input type="checkbox" name="optionsRadios" id="optionsRadios1" value=“option1”  onclick="respuesta()" required>
 				    	a) Compuesto.
@@ -150,16 +150,7 @@
 			  		</label>
 				</div>
 				
-				<script type="text/javascript">
-				function respuesta(){
-				var respuesta1=document.getElementById("respuesta1").value;
-				var respuesta2=document.getElementById("respuesta2".value);
-				var datos="hola";
-				datos=respuesta1;
-				console.log(datos);
-					}
-					
-				</script>
+				
 				<!-- -->
 				<h4>2.- ¿Cuál de las siguientes afirmaciones es incorrecta considerando el número atómico de un elemento?</h4>
 				<div class="Segundapregunta" id="respuesta2">
@@ -186,7 +177,7 @@
 				</div>
 				<!-- -->
 				<h4>4.- Selecciona de las siguientes afirmaciones relacionadas con el níquel (Ni), cual no es verdadera.</h4>
-				<div class="Cuartapregunta">
+				<div class="Cuartapregunta" id="respuesta4">
 					<label class="checkbox-inline">
 				    <input type="checkbox" name="optionsRadios" id="optionsRadios1" value=“option1” required>
 				    	a) Es un aislante.
@@ -202,7 +193,7 @@
 				</div>
 				<!-- -->
 				<h4>5.- Su principal característica es que son considerados gases inertes:</h4>
-				<div class="Quintaregunta">
+				<div class="Quintaregunta" id="respuesta5">
 					<label class="radio-inline">
 				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
 				    	a) Halógenos.
@@ -218,7 +209,7 @@
 				</div>
 				<!-- -->
 				<h4>6.- El Radio atómico se define como:</h4>
-				<div class="Sextapregunta">
+				<div class="Sextapregunta" id="respuesta6">
 				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
 				    	a) Mitad de la distancia entre dos núcleos de dos moléculas adyacentes.
 				  	<br>
@@ -231,7 +222,7 @@
 				<!-- -->
 				<h4>7.- Se define como la energía mínima necesaria para separar un electrón de un átomo en estado
 gaseoso: </h4>
-				<div class="Septimapregunta">
+				<div class="Septimapregunta" id="respuesta7">
 					<label class="radio-inline">
 				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
 				    	a) Afinidad electrónica.
@@ -247,7 +238,7 @@ gaseoso: </h4>
 				</div>
 				<!-- -->
 				<h4>8.- Un enlace covalente se caracteriza por:</h4>
-				<div class="Octavapregunta">
+				<div class="Octavapregunta" id="respuesta8">
 				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
 				    	a) Fuerzas electrostáticas entre los elementos.
 				  	<br>
@@ -259,7 +250,7 @@ gaseoso: </h4>
 				</div>
 				<!-- -->
 				<h4>9.- Compuesto que presenta un enlace covalente polar</h4>
-				<div class="Novenapregunta">
+				<div class="Novenapregunta" id="respuesta9">
 				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
 				    	a) NaCl.
 				  	<br>
@@ -271,7 +262,7 @@ gaseoso: </h4>
 				</div>
 				<!-- -->
 				<h4>10.- Una propiedad para diferenciar un enlace covalente polar y un enlace covalente no polar es:</h4>
-				<div class="Decimapregunta">
+				<div class="Decimapregunta" id="respuesta10">
 				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
 				    	a) Electronegatividad.
 				  	<br>
@@ -283,7 +274,7 @@ gaseoso: </h4>
 				</div>
 				<!-- -->
 				<h4>11.- El estado de oxidación del Azufre (S) en el compuesto ácido sulfúrico (H<sub>2</sub> SO<sub>4</sub> ) es:</h4>
-				<div class="Onceavapregunta">
+				<div class="Onceavapregunta" id="respuesta11">
 					<label class="radio-inline">
 				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
 				    	a) +2.
@@ -1238,3 +1229,69 @@ que produce es:</h4>
 
 	</body>
 </html>
+
+<script type="text/javascript">
+				function respuesta(){
+				var respuesta1=document.getElementById("respuesta1").value;
+				var respuesta2=document.getElementById("respuesta2".value);
+				var respuesta3=document.getElementById("respuesta3".value);
+				var respuesta4=document.getElementById("respuesta4".value);
+				var respuesta5=document.getElementById("respuesta5".value);
+				var respuesta6=document.getElementById("respuesta6".value);
+				var respuesta7=document.getElementById("respuesta7".value);
+				var respuesta8=document.getElementById("respuesta8".value);
+				var respuesta9=document.getElementById("respuesta9".value);
+				var respuesta10=document.getElementById("respuesta10".value);
+				var respuesta11=document.getElementById("respuesta11".value);
+				var respuesta12=document.getElementById("respuesta12".value);
+				var respuesta13=document.getElementById("respuesta13".value);
+				var respuesta14=document.getElementById("respuesta14".value);
+				var respuesta15=document.getElementById("respuesta15".value);
+				var respuesta16=document.getElementById("respuesta16".value);
+				var respuesta17=document.getElementById("respuesta17".value);
+				var respuesta18=document.getElementById("respuesta18".value);
+				var respuesta19=document.getElementById("respuesta19".value);
+				var respuesta20=document.getElementById("respuesta20".value);
+				var respuesta21=document.getElementById("respuesta21".value);
+				var respuesta22=document.getElementById("respuesta22".value);
+				var respuesta23=document.getElementById("respuesta23".value);
+				var respuesta24=document.getElementById("respuesta24".value);
+				var respuesta25=document.getElementById("respuesta25".value);
+				var respuesta26=document.getElementById("respuesta26".value);
+				var respuesta27=document.getElementById("respuesta27".value);
+				var respuesta28=document.getElementById("respuesta28".value);
+				var respuesta29=document.getElementById("respuesta29".value);
+				var respuesta30=document.getElementById("respuesta30".value);
+				var respuesta31=document.getElementById("respuesta31".value);
+				var respuesta32=document.getElementById("respuesta32".value);
+				var respuesta33=document.getElementById("respuesta33".value);
+				var respuesta34=document.getElementById("respuesta34".value);
+				var respuesta35=document.getElementById("respuesta35".value);
+				var respuesta36=document.getElementById("respuesta36".value);
+				var respuesta37=document.getElementById("respuesta37".value);
+				var respuesta38=document.getElementById("respuesta38".value);
+				var respuesta39=document.getElementById("respuesta39".value);
+				var respuesta40=document.getElementById("respuesta40".value);
+				var respuesta41=document.getElementById("respuesta41".value);
+				var respuesta42=document.getElementById("respuesta42".value);
+				var respuesta43=document.getElementById("respuesta43".value);
+				var respuesta44=document.getElementById("respuesta44".value);
+				var respuesta45=document.getElementById("respuesta45".value);
+				var respuesta46=document.getElementById("respuesta46".value);
+				var respuesta47=document.getElementById("respuesta47".value);
+				var respuesta48=document.getElementById("respuesta48".value);
+				var respuesta49=document.getElementById("respuesta49".value);
+				var respuesta50=document.getElementById("respuesta50".value);
+				var respuesta51=document.getElementById("respuesta51".value);
+				var respuesta52=document.getElementById("respuesta52".value);
+				var respuesta53=document.getElementById("respuesta53".value);
+				var respuesta54=document.getElementById("respuesta54".value);
+				var respuesta55=document.getElementById("respuesta55".value);
+				var respuesta56=document.getElementById("respuesta56".value);
+				var respuesta57=document.getElementById("respuesta57".value);
+				var respuesta58=document.getElementById("respuesta58".value);
+				var respuesta59=document.getElementById("respuesta59".value);
+				var respuesta60=document.getElementById("respuesta60".value);
+					}
+					
+				</script>

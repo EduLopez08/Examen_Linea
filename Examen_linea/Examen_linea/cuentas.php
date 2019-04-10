@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>CONALEP</title>
+	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by QBOOTSTRAP.COM" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -77,7 +77,7 @@
 <div class="row animate-box">
 				<div class="col-md-6 col-md-offset-3 text-center qbootstrap-heading">
 					<h2>Elige</h2>
-				        <a href="admin.php"><button class="btn btn-primary btn-lg btn-block" id="btnIniciar">Administrador</button></a>
+				        <a href="sesion.php"><button class="btn btn-primary btn-lg btn-block" id="btnIniciar">Administrador</button></a>
                         <a href="new_registro.php"><button class="btn btn-primary btn-lg btn-block" id="btnIniciar">Alumno</button></a>
 				    </div>	
 				</div>

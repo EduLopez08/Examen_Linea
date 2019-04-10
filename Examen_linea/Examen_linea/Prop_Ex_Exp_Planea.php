@@ -132,60 +132,71 @@
 				</div>
 				
 				<!-- Examen-->
-<form data-toggle="validator" role="form">
-				<div class="Preguntas">
+<form data-toggle="validator" role="form" method="post" name="formu" id="formu">
+				<div class="Preguntas" id="">
 				<h4>1.- Es una sustancia que no se puede separar en otras más sencillas por medios químicos:</h4>
-				<div class="Primerpregunta">
-					<label class="radio-inline">
-				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				<div class="Primerpregunta" id="respuesta1" value="hola" name="hola">
+					<label class="checkbox-inline">
+				    <input type="checkbox" name="optionsRadios" id="optionsRadios1" value=“option1”  onclick="respuesta()" required>
 				    	a) Compuesto.
 				    </label>
-				    	<label class="radio-inline">
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+				    	<label class="checkbox-inline">
+			  		<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option2” onclick="respuesta()" required>
 			  			b) Elemento.
 			  		</label>
-			  		<label class="radio-inline">
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” required>
+			  		<label class="checkbox-inline">
+			  		<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option3” onclick="respuesta()" required>
 			  			c) Materia.
 			  		</label>
 				</div>
+				
+				<script type="text/javascript">
+				function respuesta(){
+				var respuesta1=document.getElementById("respuesta1").value;
+				var respuesta2=document.getElementById("respuesta2".value);
+				var datos="hola";
+				datos=respuesta1;
+				console.log(datos);
+					}
+					
+				</script>
 				<!-- -->
 				<h4>2.- ¿Cuál de las siguientes afirmaciones es incorrecta considerando el número atómico de un elemento?</h4>
-				<div class="Segundapregunta">
-				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				<div class="Segundapregunta" id="respuesta2">
+				    <input type="checkbox" name="optionsRadios" id="optionsRadios1" onclick="respuesta()"  value=“option1” required>
 				    	a) Número de protones en el núcleo
 				    	<br>
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  		<input type="checkbox" name="optionsRadios" id="optionsRadios2" onclick="respuesta()"  value=“option2” required>
 			  			b) Número de protones en las órbitas.
 			  			<br>
-			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” required>
+			  			<input type="checkbox" name="optionsRadios" id="optionsRadios2" onclick="respuesta()"  value=“option3” required>
 			  			c) Se utiliza para la configuración electrónica de los elementos.
 				</div>
 				<!-- -->
 				<h4>3.- El nombre de los siguientes elementos químicos Mn, P, K, S, Ba, Cs, Fe, Nd, Ca y Al es:</h4>
-				<div class="Tercerpregunta">
-				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+				<div class="Tercerpregunta" id="respuesta3">
+				    <input type="checkbox" name="optionsRadios" id="optionsRadios1" value=“option1” required>
 				    	a) Magnesio, Potasio, Kriptón, Azufre, Bario, Escandio, Flúor, Neodimio, Calcio y Aluminio.
 				  	<br>
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+			  		<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option2” required>
 			  			b) Manganeso, Potasio, Kriptón, Azufre, Bario, Cesio, Fierro, Neodimio, Calcio y Aluminio.
 			  			<br>
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” required>
+			  		<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option3” required>
 			  			c) Manganeso, Fosforo, Potasio, Azufre, Bario, Cesio, Fierro, Neodimio, Calcio y Aluminio.
 				</div>
 				<!-- -->
 				<h4>4.- Selecciona de las siguientes afirmaciones relacionadas con el níquel (Ni), cual no es verdadera.</h4>
 				<div class="Cuartapregunta">
-					<label class="radio-inline">
-				    <input type="radio" name="optionsRadios" id="optionsRadios1" value=“option1” required>
+					<label class="checkbox-inline">
+				    <input type="checkbox" name="optionsRadios" id="optionsRadios1" value=“option1” required>
 				    	a) Es un aislante.
 				  		</label>
-				  		<label class="radio-inline">
-			  		<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option2” required>
+				  		<label class="checkbox-inline">
+			  		<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option2” required>
 			  			b) Es maleable.
 			  		</label>
-			  		<label class="radio-inline">
-			  			<input type="radio" name="optionsRadios" id="optionsRadios2" value=“option3” required>
+			  		<label class="checkbox-inline">
+			  			<input type="checkbox" name="optionsRadios" id="optionsRadios2" value=“option3” required>
 			  			c) Es dúctil.
 			  		</label>
 				</div>

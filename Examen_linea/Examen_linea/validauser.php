@@ -20,7 +20,7 @@
 </div>
 </center>
 		<?php
-			include 'conexionbd.php';
+			include 'conexion.php';
 			$password_i=$_REQUEST['password_i'];
 			$user_i=$_REQUEST['user_i'];
 			$query="SELECT * FROM usuarios where usuario='$user_i' and contrasenia='$password_i' ";

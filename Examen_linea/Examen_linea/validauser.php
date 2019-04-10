@@ -23,10 +23,11 @@
 			include 'conexionbd.php';
 			$password_i=$_REQUEST['password_i'];
 			$user_i=$_REQUEST['usuario_i'];
-			$query="SELECT * FROM usuarios where id_usuario='$user_i' and contrasenia='$password_i' ";
-			$resultado = $mysqli->query($query);
-		    
-			
+			$query="SELECT * FROM usuarios where usuario='$user_i' and contrasenia='$password_i' ";
+            $resultado = $mysqli->query($query);
+            if($password_i === $resultado['contrasenia'] && $usser_i === $resultado['usuario']){
+                header("location: admin.php ");
+            }
 		?>
 	</div>
 </body>

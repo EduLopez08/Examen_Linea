@@ -26,7 +26,7 @@
 			$query="SELECT * FROM usuarios where usuario='$user_i' and contrasenia='$password_i' ";
             $resultado = $mysqli->query($query);
             if($password_i === $resultado['contrasenia'] && $usser_i === $resultado['usuario']){
-                header("location: admin.php ");
+                header("Location: admin.php ");
             }
 		?>
 	</div>
